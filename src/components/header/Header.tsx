@@ -4,7 +4,7 @@ import { Logo } from "../logo/Logo";
 import { Menu } from "../menu/Menu";
 import { FlexWrapper } from "../flex/FlexWrapper";
 import { Container } from "../slider/Container";
-import { Language } from "../Language";
+// import { Language } from "../";
 import { theme } from "../../styles/Theme";
 
 export const Header = () => {
@@ -14,7 +14,7 @@ export const Header = () => {
         <Logo />
         <FlexWrapper justify="flex-end" gap="32px">
           <Menu />
-          <Language />
+          {/* <Language /> */}
         </FlexWrapper>
       </StyledHeader>
     </Container>
